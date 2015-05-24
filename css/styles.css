@@ -40,7 +40,7 @@ OVERRIDE MEDIA ELEMENT PLAYER STYLING
 }
 
 .mejs-378 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: green;
+	background: black;
 }
 
 /* ADD MORE STYLING. MAKE IT YOUR OWN. */
@@ -130,11 +130,16 @@ h1 {
 
 h3 {
 color: white;
+text-align: center;
 font-family: "lato", sans-serif;
 font-weight: 300;
 font-size: 20px;
 }
 
+body {
+	color: white;
+	text-align: center;
+}
 /*share buttons */
     img {
         height: 100px;
@@ -144,4 +149,8 @@ font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     }
+}
+
+#footer .content p {
+    margin-bottom: 0
 }
